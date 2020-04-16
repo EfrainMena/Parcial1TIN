@@ -1,0 +1,89 @@
+.fondo {
+    height: 100vh;
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada {
+    height: 100vh;
+    background: url("../img/PORTADA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo_madera {
+    height: 100vh;
+    background: url("../img/fondoMadera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gris {
+    background: rgba(0, 0, 0, 0.246);
+}
+
+.top-nav-collapse {
+    background: rgba(0, 0, 0, 0.623) !important;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: rgba(0, 0, 0, 0.856);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f19603;
+    border-radius: 10px;
+    border-right: 2px solid #000000;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.slider_text {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 27px;
+    color: #fff;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/*Estilos de lista*/
+.items li a{
+    background-color: skyblue;
+    transition: background-color .5s;
+}
+  
+.lista li a:hover {
+     text-decoration: line-through;
+     background-color: red;
+}
+ 
+.red::-webkit-input-placeholder {
+     color: rgb(248, 134, 134);
+   }
+ 
+.green::-webkit-input-placeholder {
+     color: greenyellow;
+}
+
+.error_bg {
+    background-color: rgba(247, 173, 160, 0.931);
+}
+
+.success_bg {
+    background-color: rgba(183, 241, 186, 0.931);
+}
